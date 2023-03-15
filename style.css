@@ -1,0 +1,17 @@
+body {
+    background-image: linear-gradient(to left, grey, white);
+}
+h1{
+   font-weight: 700; 
+}
+main section h2 {
+    text-decoration: underline;
+}
+main section img {
+    height: 100px;
+    width: 150px;
+    transition: 1s ease;
+}
+main section img:hover {
+    transform: scale(1.1);
+}
